@@ -1,0 +1,34 @@
+﻿**********************
+Windows PowerShell トランスクリプト開始
+開始時刻: 20220905164714
+ユーザー名: MSI055011BB02BF\Kosei KUdo
+RunAs ユーザー: MSI055011BB02BF\Kosei KUdo
+構成名: 
+コンピューター: MSI055011BB02BF (Microsoft Windows NT 10.0.19044.0)
+ホスト アプリケーション: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+プロセス ID: 9500
+PSVersion: 5.1.19041.1682
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1682
+BuildVersion: 10.0.19041.1682
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+トランスクリプトが開始されました。出力ファイル: C:\Users\Febru\Downloads\Hyper-V_enable.log
+PS C:\WINDOWS\system32> Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
+
+
+
+Path          :
+Online        : True
+RestartNeeded : False
+
+
+
+PS C:\WINDOWS\system32> Stop-Transcript
+**********************
+Windows PowerShell トランスクリプト終了
+終了時刻: 20220905164747
+**********************

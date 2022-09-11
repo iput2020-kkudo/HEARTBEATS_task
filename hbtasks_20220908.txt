@@ -1,0 +1,512 @@
+スクリプトは 2022年09月08日 12時21分38秒
+ に開始しました]777;notify;Command completed;service httpd configtest]0;rinjikosei@localhost:~]7;file://localhost.localdomain/home/rinjikosei[?1034h[rinjikosei@localhost ~]$ cd / [Kvar/www/
+]777;notify;Command completed;cd /var/www/]0;rinjikosei@localhost:/var/www]7;file://localhost.localdomain/var/www[rinjikosei@localhost www]$ ls
+#index1.html#  [0m[38;5;27mcgi-bin[0m  [38;5;27mhbtask.vhost0.com[0m  [38;5;27mhbtask.vhost1.com[0m  [38;5;27mhtml[0m
+]777;notify;Command completed;ls]0;rinjikosei@localhost:/var/www]7;file://localhost.localdomain/var/www[rinjikosei@localhost www]$ /cd [K[K[K[Kcd .[K/ [Ketc/
+]777;notify;Command completed;cd /etc/]0;rinjikosei@localhost:/etc]7;file://localhost.localdomain/etc[rinjikosei@localhost etc]$ ls
+DIR_COLORS                  [0m[38;5;27mgssproxy[0m                  [38;5;27mprelink.conf.d[0m
+DIR_COLORS.256color         host.conf                 printcap
+DIR_COLORS.lightbgcolor     hostname                  profile
+GREP_COLORS                 hosts                     [38;5;27mprofile.d[0m
+GeoIP.conf                  hosts.allow               protocols
+[38;5;27mImageMagick-6[0m               hosts.deny                [38;5;27mpulse[0m
+[38;5;27mNetworkManager[0m              [38;5;27mhp[0m                        [38;5;27mpurple[0m
+[38;5;27mPackageKit[0m                  [38;5;27mhttpd[0m                     [38;5;27mpython[0m
+[38;5;27mUPower[0m                      idmapd.conf               [38;5;27mqemu-ga[0m
+[38;5;27mX11[0m                         [38;5;51minit.d[0m                    [38;5;27mqemu-kvm[0m
+[38;5;27mabrt[0m                        inittab                   radvd.conf
+adjtime                     inputrc                   [38;5;27mras[0m
+aliases                     [38;5;27miproute2[0m                  [38;5;27mrc.d[0m
+aliases.db                  ipsec.conf                [38;5;51mrc.local[0m
+[38;5;27malsa[0m                        [38;5;27mipsec.d[0m                   [38;5;51mrc0.d[0m
+[38;5;27malternatives[0m                ipsec.secrets             [38;5;51mrc1.d[0m
+anacrontab                  [38;5;27miscsi[0m                     [38;5;51mrc2.d[0m
+asound.conf                 issue                     [38;5;51mrc3.d[0m
+at.deny                     issue.net                 [38;5;51mrc4.d[0m
+[38;5;27maudisp[0m                      [38;5;27mjava[0m                      [38;5;51mrc5.d[0m
+[38;5;27maudit[0m                       [38;5;27mjvm[0m                       [38;5;51mrc6.d[0m
+[38;5;27mavahi[0m                       [38;5;27mjvm-commmon[0m               [38;5;27mrdma[0m
+[38;5;27mbash_completion.d[0m           kdump.conf                [38;5;51mredhat-release[0m
+bashrc                      [38;5;27mkernel[0m                    request-key.conf
+[38;5;27mbinfmt.d[0m                    krb5.conf                 [38;5;27mrequest-key.d[0m
+[38;5;27mbluetooth[0m                   [38;5;27mkrb5.conf.d[0m               resolv.conf
+[38;5;27mbrltty[0m                      ksmtuned.conf             resolv.conf.save
+brltty.conf                 ld.so.cache               rpc
+centos-release              ld.so.conf                [38;5;27mrpm[0m
+centos-release-upstream     [38;5;27mld.so.conf.d[0m              rsyncd.conf
+[38;5;27mchkconfig.d[0m                 libaudit.conf             rsyslog.conf
+chrony.conf                 [38;5;27mlibblockdev[0m               [38;5;27mrsyslog.d[0m
+chrony.conf~                [38;5;27mlibibverbs.d[0m              rwtab
+chrony.keys                 [38;5;27mlibnl[0m                     [38;5;27mrwtab.d[0m
+[38;5;27mcifs-utils[0m                  [38;5;27mlibpaper.d[0m                [38;5;27msamba[0m
+[38;5;27mcron.d[0m                      [38;5;27mlibreport[0m                 [38;5;27msane.d[0m
+[38;5;27mcron.daily[0m                  libuser.conf              [38;5;27msasl2[0m
+cron.deny                   [38;5;27mlibvirt[0m                   [38;5;27mscl[0m
+[38;5;27mcron.hourly[0m                 locale.conf               securetty
+[38;5;27mcron.monthly[0m                [38;5;51mlocaltime[0m                 [38;5;27msecurity[0m
+[38;5;27mcron.weekly[0m                 login.defs                [38;5;27mselinux[0m
+crontab                     logrotate.conf            services
+crypttab                    [38;5;27mlogrotate.d[0m               sestatus.conf
+csh.cshrc                   [38;5;27mlsm[0m                       [38;5;27msetroubleshoot[0m
+csh.login                   [38;5;27mlvm[0m                       [38;5;27msetuptool.d[0m
+[38;5;27mcups[0m                        machine-id                [38;5;27msgml[0m
+[38;5;27mcupshelpers[0m                 magic                     shadow
+[38;5;27mdbus-1[0m                      mail.rc                   shadow-
+[38;5;27mdconf[0m                       mailcap                   shells
+[38;5;27mdefault[0m                     makedumpfile.conf.sample  [38;5;27mskel[0m
+[38;5;27mdepmod.d[0m                    man_db.conf               [38;5;27msmartmontools[0m
+[38;5;27mdhcp[0m                        [38;5;27mmaven[0m                     sos.conf
+dleyna-server-service.conf  [38;5;27mmcelog[0m                    [38;5;27mspeech-dispatcher[0m
+dnsmasq.conf                mime.types                [38;5;27mssh[0m
+[38;5;27mdnsmasq.d[0m                   mke2fs.conf               [38;5;27mssl[0m
+dracut.conf                 [38;5;27mmodprobe.d[0m                statetab
+[38;5;27mdracut.conf.d[0m               [38;5;27mmodules-load.d[0m            [38;5;27mstatetab.d[0m
+e2fsck.conf                 motd                      subgid
+[38;5;27megl[0m                         [38;5;51mmtab[0m                      subuid
+enscript.cfg                mtools.conf               sudo-ldap.conf
+environment                 [38;5;27mmultipath[0m                 sudo.conf
+ethertypes                  my.cnf                    sudoers
+exports                     [38;5;27mmy.cnf.d[0m                  [38;5;27msudoers.d[0m
+[38;5;27mexports.d[0m                   nanorc                    [38;5;27msysconfig[0m
+[38;5;51mfavicon.png[0m                 [38;5;27mndctl[0m                     sysctl.conf
+[38;5;27mfcoe[0m                        netconfig                 [38;5;27msysctl.d[0m
+[38;5;27mfestival[0m                    networks                  [38;5;51msystem-release[0m
+filesystems                 nfs.conf                  system-release-cpe
+[38;5;27mfirefox[0m                     nfsmount.conf             [38;5;27msystemd[0m
+[38;5;27mfirewalld[0m                   nsswitch.conf             tcsd.conf
+[38;5;27mflatpak[0m                     nsswitch.conf.bak         [38;5;27mterminfo[0m
+[38;5;27mfonts[0m                       [38;5;27mntp[0m                       [38;5;27mtmpfiles.d[0m
+fprintd.conf                numad.conf                trusted-key.key
+fstab                       [38;5;27moddjob[0m                    [38;5;27mtuned[0m
+fuse.conf                   oddjobd.conf              [38;5;27mudev[0m
+[38;5;27mfwupd[0m                       [38;5;27moddjobd.conf.d[0m            [38;5;27mudisks2[0m
+[38;5;27mgconf[0m                       [38;5;27mopenldap[0m                  [38;5;27munbound[0m
+[38;5;27mgcrypt[0m                      [38;5;27mopt[0m                       updatedb.conf
+gdbinit                     [38;5;51mos-release[0m                usb_modeswitch.conf
+[38;5;27mgdbinit.d[0m                   [38;5;27mpam.d[0m                     vconsole.conf
+[38;5;27mgdm[0m                         papersize                 vimrc
+[38;5;27mgeoclue[0m                     passwd                    virc
+[38;5;27mghostscript[0m                 passwd-                   [38;5;27mvmware-tools[0m
+[38;5;27mglvnd[0m                       pbm2ppa.conf              wgetrc
+[38;5;27mgnupg[0m                       pinforc                   [38;5;27mwpa_supplicant[0m
+[38;5;27mgroff[0m                       [38;5;27mpkcs11[0m                    wvdial.conf
+group                       [38;5;27mpki[0m                       [38;5;27mxdg[0m
+group-                      [38;5;27mplymouth[0m                  [38;5;27mxinetd.d[0m
+[38;5;27mgrub.d[0m                      [38;5;27mpm[0m                        [38;5;27mxml[0m
+[48;5;232;38;5;9mgrub2-efi.cfg[0m               pnm2ppa.conf              [38;5;27myum[0m
+[48;5;232;38;5;9mgrub2.cfg[0m                   [38;5;27mpolkit-1[0m                  yum.conf
+gshadow                     [38;5;27mpopt.d[0m                    [38;5;27myum.repos.d[0m
+gshadow-                    [38;5;27mpostfix[0m
+[38;5;27mgss[0m                         [38;5;27mppp[0m
+]777;notify;Command completed;ls]0;rinjikosei@localhost:/etc]7;file://localhost.localdomain/etc[rinjikosei@localhost etc]$ cd /etc/httpd/
+]777;notify;Command completed;cd /etc/httpd/]0;rinjikosei@localhost:/etc/httpd]7;file://localhost.localdomain/etc/httpd[rinjikosei@localhost httpd]$ ls
+[0m[38;5;27mconf[0m  [38;5;27mconf.d[0m  [38;5;27mconf.modules.d[0m  [38;5;51mlogs[0m  [38;5;51mmodules[0m  [38;5;51mrun[0m
+]777;notify;Command completed;ls]0;rinjikosei@localhost:/etc/httpd]7;file://localhost.localdomain/etc/httpd[rinjikosei@localhost httpd]$ cd /conf.d
+bash: cd: /conf.d: そのようなファイルやディレクトリはありません
+]777;notify;Command completed;cd /conf.d]0;rinjikosei@localhost:/etc/httpd]7;file://localhost.localdomain/etc/httpd[rinjikosei@localhost httpd]$ cd /conf.d[K[K[K[K[K[Kvar/httpd/[K[K[K[K[K[K[K[K[K[Ketc/f[Khttpd//[Kconf.d/
+]777;notify;Command completed;cd /etc/httpd/conf.d/]0;rinjikosei@localhost:/etc/httpd/conf.d]7;file://localhost.localdomain/etc/httpd/conf.d[rinjikosei@localhost conf.d]$ ls
+#vhost.conf#  README  autoindex.conf  userdir.conf  vhost.conf  welcome.conf
+]777;notify;Command completed;ls]0;rinjikosei@localhost:/etc/httpd/conf.d]7;file://localhost.localdomain/etc/httpd/conf.d[rinjikosei@localhost conf.d]$ cat #\#vhost.conf# 
+<VirtualHost *:80>
+DocumentRoot /var/www/hbtask.vhost0.com/
+ServerName kudo-hbtask.local
+</VirtualHost>
+
+<VirtualHost *:80>
+DocumentRoot /var/www/hbtask.vhost1.com/
+ServerName kosei-hbtask.local
+</VirtualHost>
+]777;notify;Command completed;cat \#vhost.conf# ]0;rinjikosei@localhost:/etc/httpd/conf.d]7;file://localhost.localdomain/etc/httpd/conf.d[rinjikosei@localhost conf.d]$ co[K[Kvhs[Kost[K[K[K[K[Kema[K[K[Ksudo emacs vhost.conf 
+[sudo] rinjikosei のパスワード:
+]777;notify;Command completed;sudo emacs vhost.conf ]0;rinjikosei@localhost:/etc/httpd/conf.d]7;file://localhost.localdomain/etc/httpd/conf.d[rinjikosei@localhost conf.d]$ sudo emacs vhost.conf [4Pcat \#vhost.conf#[C
+<VirtualHost *:80>
+DocumentRoot /var/www/hbtask.vhost0.com/
+ServerName kudo-hbtask.local
+</VirtualHost>
+
+<VirtualHost *:80>
+DocumentRoot /var/www/hbtask.vhost1.com/
+ServerName kosei-hbtask.local
+</VirtualHost>
+]777;notify;Command completed;cat \#vhost.conf# ]0;rinjikosei@localhost:/etc/httpd/conf.d]7;file://localhost.localdomain/etc/httpd/conf.d[rinjikosei@localhost conf.d]$ cat \#vhost.conf# [K[C[C[C[1Pvhost.conf#[1Pvhost.conf#[C[C[C[C[C[C[C[C[C[C[C[K
+<VirtualHost *:80>
+DocumentRoot /var/www/hbtask.vhost0.com/
+ServerName kudo-hbtask.local
+</VirtualHost>]777;notify;Command completed;cat vhost.conf]0;rinjikosei@localhost:/etc/httpd/conf.d]7;file://localhost.localdomain/etc/httpd/conf.d[rinjikosei@localhost conf.d]$ s[Ksystemctl restart httpd
+]777;notify;Command completed;systemctl restart httpd]0;rinjikosei@localhost:/etc/httpd/conf.d]7;file://localhost.localdomain/etc/httpd/conf.d[rinjikosei@localhost conf.d]$ systemctl status httpd
+[1;32m●[0m httpd.service - The Apache HTTP Server
+   Loaded: loaded (/usr/lib/systemd/system/httpd.service; enabled; vendor preset: disabled)
+   Active: [1;32mactive (running)[0m since 木 2022-09-08 12:32:58 JST; 5h 16min ago
+     Docs: man:httpd(8)
+           man:apachectl(8)
+  Process: 10509 ExecStop=/bin/kill -WINCH ${MAINPID} (code=exited, status=0/SUCCESS)
+ Main PID: 10516 (httpd)
+   Status: "Total requests: 0; Current requests/sec: 0; Current traffic:   0 B/sec"
+    Tasks: 6
+   CGroup: /system.slice/httpd.service
+           ├─10516 /usr/sbin/httpd -DFOREGROUND
+           ├─10517 /usr/sbin/httpd -DFOREGROUND
+           ├─10518 /usr/sbin/httpd -DFOREGROUND
+           ├─10519 /usr/sbin/httpd -DFOREGROUND
+           ├─10520 /usr/sbin/httpd -DFOREGROUND
+           └─10521 /usr/sbin/httpd -DFOREGROUND
+
+ 9月 08 12:32:58 localhost.localdomain systemd[1]: Stopped The Apache HTTP S...
+ 9月 08 12:32:58 localhost.localdomain systemd[1]: Starting The Apache HTTP ...
+ 9月 08 12:32:58 localhost.localdomain httpd[10516]: AH00558: httpd: Could n...
+ 9月 08 12:32:58 localhost.localdomain systemd[1]: Started The Apache HTTP S...
+Hint: Some lines were ellipsized, use -l to show in full.
+]777;notify;Command completed;systemctl status httpd]0;rinjikosei@localhost:/etc/httpd/conf.d]7;file://localhost.localdomain/etc/httpd/conf.d[rinjikosei@localhost conf.d]$ cd /var/www/
+]777;notify;Command completed;cd /var/www/]0;rinjikosei@localhost:/var/www]7;file://localhost.localdomain/var/www[rinjikosei@localhost www]$ ls
+#index1.html#  [0m[38;5;27mcgi-bin[0m  [38;5;27mhbtask.vhost0.com[0m  [38;5;27mhbtask.vhost1.com[0m  [38;5;27mhtml[0m
+]777;notify;Command completed;ls]0;rinjikosei@localhost:/var/www]7;file://localhost.localdomain/var/www[rinjikosei@localhost www]$ rm -d hbtask.vhost0.com/[K 
+rm: `hbtask.vhost0.com' を削除できません: ディレクトリは空ではありません
+]777;notify;Command completed;rm -d hbtask.vhost0.com ]0;rinjikosei@localhost:/var/www]7;file://localhost.localdomain/var/www[rinjikosei@localhost www]$ rm -d hbtask.vhost0.com [C[C[C[C[1P[1P[1P[1P[1@d
+bash: rd: コマンドが見つかりませんでした...
+]777;notify;Command completed;rd hbtask.vhost0.com ]0;rinjikosei@localhost:/var/www]7;file://localhost.localdomain/var/www[rinjikosei@localhost www]$ rd hbtask.vhost0.com [C[1P[1@m[C[1@ [1@-[1@r
+rm: 書き込み保護されたディレクトリ `hbtask.vhost0.com' 配下を削除しますか? yes
+rm: 書き込み保護されたファイル 通常ファイル `hbtask.vhost0.com/index0.html~' を削除しますか?y
+rm: `hbtask.vhost0.com/index0.html~' を削除できません: 許可がありません
+rm: 書き込み保護されたファイル 通常ファイル `hbtask.vhost0.com/index0.html' を削除しますか?y
+rm: `hbtask.vhost0.com/index0.html' を削除できません: 許可がありません
+]777;notify;Command completed;rm -r hbtask.vhost0.com ]0;rinjikosei@localhost:/var/www]7;file://localhost.localdomain/var/www[rinjikosei@localhost www]$ rm -r hbtask.vhost0.com [1@s[1@u[1@d[1@o[1@ 
+[sudo] rinjikosei のパスワード:
+]777;notify;Command completed;sudo rm -r hbtask.vhost0.com ]0;rinjikosei@localhost:/var/www]7;file://localhost.localdomain/var/www[rinjikosei@localhost www]$ ls
+#index1.html#  [0m[38;5;27mcgi-bin[0m  [38;5;27mhbtask.vhost1.com[0m  [38;5;27mhtml[0m
+]777;notify;Command completed;ls]0;rinjikosei@localhost:/var/www]7;file://localhost.localdomain/var/www[rinjikosei@localhost www]$ lssudo rm -r hbtask.vhost0.com [1P[1@1
+]777;notify;Command completed;sudo rm -r hbtask.vhost1.com ]0;rinjikosei@localhost:/var/www]7;file://localhost.localdomain/var/www[rinjikosei@localhost www]$ ls
+#index1.html#  [0m[38;5;27mcgi-bin[0m  [38;5;27mhtml[0m
+]777;notify;Command completed;ls]0;rinjikosei@localhost:/var/www]7;file://localhost.localdomain/var/www[rinjikosei@localhost www]$ sudo rm #\#index1.html# 
+]777;notify;Command completed;sudo rm \#index1.html# ]0;rinjikosei@localhost:/var/www]7;file://localhost.localdomain/var/www[rinjikosei@localhost www]$ cd /etc/httpd/
+]777;notify;Command completed;cd /etc/httpd/]0;rinjikosei@localhost:/etc/httpd]7;file://localhost.localdomain/etc/httpd[rinjikosei@localhost httpd]$ ls
+[0m[38;5;27mconf[0m  [38;5;27mconf.d[0m  [38;5;27mconf.modules.d[0m  [38;5;51mlogs[0m  [38;5;51mmodules[0m  [38;5;51mrun[0m
+]777;notify;Command completed;ls]0;rinjikosei@localhost:/etc/httpd]7;file://localhost.localdomain/etc/httpd[rinjikosei@localhost httpd]$ ls[K[Kcd /etc/httpd/conf.d/
+]777;notify;Command completed;cd /etc/httpd/conf.d/]0;rinjikosei@localhost:/etc/httpd/conf.d]7;file://localhost.localdomain/etc/httpd/conf.d[rinjikosei@localhost conf.d]$ ls
+#vhost.conf#  autoindex.conf  vhost.conf   welcome.conf
+README        userdir.conf    vhost.conf~
+]777;notify;Command completed;ls]0;rinjikosei@localhost:/etc/httpd/conf.d]7;file://localhost.localdomain/etc/httpd/conf.d[rinjikosei@localhost conf.d]$ rm [K[K[Ksudo 3[K#vhos[K[K[K[K[Kvhost[K[K[K[K[K[K[K[K[K[Ksudo rm #\#vhost.conf# [C[1P[C[C[C[C[C[C[C[C[C[C[C[C[Cvhost.conf vhost.conf~
+rm: オペランドがありません
+Try 'rm --help' for more information.
+]777;notify;Command completed;sudo rm #vhost.conf# vhost.conf vhost.conf~]0;rinjikosei@localhost:/etc/httpd/conf.d]7;file://localhost.localdomain/etc/httpd/conf.d[rinjikosei@localhost conf.d]$ sudo rm #vhost.conf# vhost.conf vhost.conf~[C[C[C[C[C[C[C[C[C[C[1@-[1@ [C[1@r
+rm: オペランドがありません
+Try 'rm --help' for more information.
+]777;notify;Command completed;sudo rm -r #vhost.conf# vhost.conf vhost.conf~]0;rinjikosei@localhost:/etc/httpd/conf.d]7;file://localhost.localdomain/etc/httpd/conf.d[rinjikosei@localhost conf.d]$ sudo rm -r #vhost.conf# vhost.conf vhost.conf~[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K#v\#vhost.conf# 
+]777;notify;Command completed;sudo rm \#vhost.conf# ]0;rinjikosei@localhost:/etc/httpd/conf.d]7;file://localhost.localdomain/etc/httpd/conf.d[rinjikosei@localhost conf.d]$ sudo rm \#vhost.conf# [1P [C[1P[1P
+]777;notify;Command completed;sudo rm vhost.conf ]0;rinjikosei@localhost:/etc/httpd/conf.d]7;file://localhost.localdomain/etc/httpd/conf.d[rinjikosei@localhost conf.d]$ sudo rm vhost.conf [K~
+]777;notify;Command completed;sudo rm vhost.conf~]0;rinjikosei@localhost:/etc/httpd/conf.d]7;file://localhost.localdomain/etc/httpd/conf.d[rinjikosei@localhost conf.d]$ ls
+README  autoindex.conf  userdir.conf  welcome.conf
+]777;notify;Command completed;ls]0;rinjikosei@localhost:/etc/httpd/conf.d]7;file://localhost.localdomain/etc/httpd/conf.d[rinjikosei@localhost conf.d]$ cd /var/r[Kwww/
+]777;notify;Command completed;cd /var/www/]0;rinjikosei@localhost:/var/www]7;file://localhost.localdomain/var/www[rinjikosei@localhost www]$ mi[K[Ksudo [K[K[K[K[Ksu
+パスワード:
+su: 認証失敗
+]777;notify;Command completed;su]0;rinjikosei@localhost:/var/www]7;file://localhost.localdomain/var/www[rinjikosei@localhost www]$ su
+パスワード:
+su: 認証失敗
+]777;notify;Command completed;su]0;rinjikosei@localhost:/var/www]7;file://localhost.localdomain/var/www[rinjikosei@localhost www]$ sudo [K[K[K[K[Ksudo mkdir sample.myhost.com
+[sudo] rinjikosei のパスワード:
+]777;notify;Command completed;sudo mkdir sample.myhost.com]0;rinjikosei@localhost:/var/www]7;file://localhost.localdomain/var/www[rinjikosei@localhost www]$ chown apache:apache sampla[Ke.myhost.com/[K
+chown: `sample.myhost.com' の所有者を変更中: 許可されていない操作です
+]777;notify;Command completed;chown apache:apache sample.myhost.com]0;rinjikosei@localhost:/var/www]7;file://localhost.localdomain/var/www[rinjikosei@localhost www]$ chown apache:apache sample.myhost.com[1@s[1@u[1@d[1@o[1@ 
+]777;notify;Command completed;sudo chown apache:apache sample.myhost.com]0;rinjikosei@localhost:/var/www]7;file://localhost.localdomain/var/www[rinjikosei@localhost www]$ cd /vr[Kar/www/sample.myhost.com/
+]777;notify;Command completed;cd /var/www/sample.myhost.com/]0;rinjikosei@localhost:/var/www/sample.myhost.com]7;file://localhost.localdomain/var/www/sample.myhost.com[rinjikosei@localhost sample.myhost.com]$ e[Ksudo echor[K ""T"h"i"s"i"[1P" "i"s" "s"a"m"p"l"e" "[1P"."m"y"h"o"s"t"."c"o"m"[C  > index.html
+bash: index.html: 許可がありません
+]777;notify;Command completed;sudo echo "This is sample.myhost.com" > index.html]0;rinjikosei@localhost:/var/www/sample.myhost.com]7;file://localhost.localdomain/var/www/sample.myhost.com[rinjikosei@localhost sample.myhost.com]$ sudo echo "This is sample.myhost.com" >> index.html[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A[rinjikosei@localhost sample.myhost.com]$ sudo echo "This is sample.myhost.com" > index.html[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+bash: index.html: 許可がありません
+]777;notify;Command completed;sudo echo "This is sample.myhost.com" > index.html]0;rinjikosei@localhost:/var/www/sample.myhost.com]7;file://localhost.localdomain/var/www/sample.myhost.com[rinjikosei@localhost sample.myhost.com]$ sudo echo "This is sample.myhost.com" > index.html[C[1@ [1@s[1@u[1@d[1@o[C[1@ 
+bash: index.html: 許可がありません
+]777;notify;Command completed;sudo echo "This is sample.myhost.com" sudo  > index.html]0;rinjikosei@localhost:/var/www/sample.myhost.com]7;file://localhost.localdomain/var/www/sample.myhost.com[rinjikosei@localhost sample.myhost.com]$ ^C
+]777;notify;Command completed;sudo echo "This is sample.myhost.com" sudo  > index.html]0;rinjikosei@localhost:/var/www/sample.myhost.com]7;file://localhost.localdomain/var/www/sample.myhost.com[rinjikosei@localhost sample.myhost.com]$ [K[rinjikosei@localhost sample.myhost.com]$ [K[rinjikosei@localhost sample.myhost.com]$ [K[rinjikosei@localhost sample.myhost.com]$ [K[rinjikosei@localhost sample.myhost.com]$ [K[rinjikosei@localhost sample.myhost.com]$ sudo echo "This is sample.myhost.com" ssudo  > index.html[6P[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd /var/www/
+]777;notify;Command completed;cd /var/www/]0;rinjikosei@localhost:/var/www]7;file://localhost.localdomain/var/www[rinjikosei@localhost www]$ chown root sample.myhost.com/
+chown: `sample.myhost.com/' の所有者を変更中: 許可されていない操作です
+]777;notify;Command completed;chown root sample.myhost.com/]0;rinjikosei@localhost:/var/www]7;file://localhost.localdomain/var/www[rinjikosei@localhost www]$ chown root sample.myhost.com/[1@s[1@u[1@d[1@o[1@ 
+[sudo] rinjikosei のパスワード:
+]777;notify;Command completed;sudo chown root sample.myhost.com/]0;rinjikosei@localhost:/var/www]7;file://localhost.localdomain/var/www[rinjikosei@localhost www]$ sudo chown root sample.myhost.com/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Pd /var/www/sudo echo "This is sample.myhost.com" sudo  > index.hhtml[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2P> index.html
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[20Pcd /var/www/sample.myhost.com/
+]777;notify;Command completed;cd /var/www/sample.myhost.com/]0;rinjikosei@localhost:/var/www/sample.myhost.com]7;file://localhost.localdomain/var/www/sample.myhost.com[rinjikosei@localhost sample.myhost.com]$ cd /var/www/sample.myhost.com/[Kcd /var/www/sample.myhost.com/sudo chown root sample.myhost.com/[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Pd /var/www/sudo echo "This is sample.myhost.com" ssudo  > index.html
+bash: index.html: 許可がありません
+]777;notify;Command completed;sudo echo "This is sample.myhost.com" sudo  > index.html]0;rinjikosei@localhost:/var/www/sample.myhost.com]7;file://localhost.localdomain/var/www/sample.myhost.com[rinjikosei@localhost sample.myhost.com]$ sudo echo "This is sample.myhost.com" ssudo  > index.html[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pcd /var/www/sample.myhost.com/
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo chown root sample.myhost.com/[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Pd /var/www/sudo echo "This is sample.myhost.com" ssudo  > index.html[6P[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pcd /var/www/sample.myhost.com/
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo chown apache:apache sample.myhost..com[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pchown apache:apache sample.myhost.com
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo chown apache:apache sample.myhost..com[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pcd /var/www/sample.myhost.com/
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo echo "This is sample.myhost.com" >> index.html[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pcd /var/www/sample.myhost.com/
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo chown apache:apache sample.myhost..com[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pchown apache:apache sample.myhost.com
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Psudo mkdir[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9@chown apache:apache[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+chown: `sample.myhost.com' にアクセスできません: そのようなファイルやディレクトリはありません
+]777;notify;Command completed;chown apache:apache sample.myhost.com]0;rinjikosei@localhost:/var/www/sample.myhost.com]7;file://localhost.localdomain/var/www/sample.myhost.com[rinjikosei@localhost sample.myhost.com]$ chown apache:apache sample.myhost.comsudo echo "This is sample.myhost.com" ssudo  > index.html[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pcd /var/www/sample.myhost.com/
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo chown root sample.myhost.com/[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Pd /var/www/sudo echo "This is sample.myhost.com" ssudo  > index.html[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd /var/www/[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]777;notify;Command completed;cd /var/www/]0;rinjikosei@localhost:/var/www]7;file://localhost.localdomain/var/www[rinjikosei@localhost www]$ cd /var/www/hown apache:apache sample.myhost.com
+chown: `sample.myhost.com' の所有者を変更中: 許可されていない操作です
+]777;notify;Command completed;chown apache:apache sample.myhost.com]0;rinjikosei@localhost:/var/www]7;file://localhost.localdomain/var/www[rinjikosei@localhost www]$ chown apache:apache sample.myhost.com[1@s[1@u[1@d[1@o[1@ 
+]777;notify;Command completed;sudo chown apache:apache sample.myhost.com]0;rinjikosei@localhost:/var/www]7;file://localhost.localdomain/var/www[rinjikosei@localhost www]$ sudo chown apache:apache sample.myhost.com[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd /var/www/[Khown apache:apache sample.myhost.com[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo echo "This is sample.myhost.com" sudo  > index.hhtml[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22Pcd /var/www/sample.myhost.com/
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo chown root sample.myhost.com/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Pd /var/www/sudo echo "This is sample.myhost.com" sudo  > index.hhtml[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2P> index.html
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo  > index.hhtml[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2P> index.html
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[20Pcd /var/www/sample.myhost.com/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo chown apache:apache sample.myhost.com[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Psudo mkdir[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kdo mkdir sample.myhost.com[9@chown apache:apache[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5@sudo [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pcd /var/www/sample.myhost.com/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo echo "This is sample.myhost.com" > index.html[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[20Pcd /var/www/sample.myhost.com/
+]777;notify;Command completed;cd /var/www/sample.myhost.com/]0;rinjikosei@localhost:/var/www/sample.myhost.com]7;file://localhost.localdomain/var/www/sample.myhost.com[rinjikosei@localhost sample.myhost.com]$ cd /var/www/sample.myhost.com/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+]777;notify;Command completed;cd /var/www/]0;rinjikosei@localhost:/var/www]7;file://localhost.localdomain/var/www[rinjikosei@localhost www]$ c[Kls
+[0m[38;5;27mcgi-bin[0m  [38;5;27mhtml[0m  [38;5;27msample.myhost.com[0m
+]777;notify;Command completed;ls]0;rinjikosei@localhost:/var/www]7;file://localhost.localdomain/var/www[rinjikosei@localhost www]$ rm -d cd[K[Ksample.myhost.com/
+rm: 書き込み保護されたファイル ディレクトリ `sample.myhost.com/' を削除しますか?yes
+rm: `sample.myhost.com/' を削除できません: 許可がありません
+]777;notify;Command completed;rm -d sample.myhost.com/]0;rinjikosei@localhost:/var/www]7;file://localhost.localdomain/var/www[rinjikosei@localhost www]$ rm -d sample.myhost.com/[1@s[1@u[1@d[1@o[1@ 
+]777;notify;Command completed;sudo rm -d sample.myhost.com/]0;rinjikosei@localhost:/var/www]7;file://localhost.localdomain/var/www[rinjikosei@localhost www]$ ls
+[0m[38;5;27mcgi-bin[0m  [38;5;27mhtml[0m
+]777;notify;Command completed;ls]0;rinjikosei@localhost:/var/www]7;file://localhost.localdomain/var/www[rinjikosei@localhost www]$ cd /var/r[Kwww/
+]777;notify;Command completed;cd /var/www/]0;rinjikosei@localhost:/var/www]7;file://localhost.localdomain/var/www[rinjikosei@localhost www]$ mkdir sa[K[Kma[Ksa[K[Ks[K[Ksample.myhost.com
+mkdir: ディレクトリ `sample.myhost.com' を作成できません: 許可がありません
+]777;notify;Command completed;mkdir sample.myhost.com]0;rinjikosei@localhost:/var/www]7;file://localhost.localdomain/var/www[rinjikosei@localhost www]$ mkdir sample.myhost.com[1@s[1@u[1@d[1@o[1@ 
+]777;notify;Command completed;sudo mkdir sample.myhost.com]0;rinjikosei@localhost:/var/www]7;file://localhost.localdomain/var/www[rinjikosei@localhost www]$ co[Khown apache:apche[K[Ka[K[Kache sample.myhost.com/
+chown: `sample.myhost.com/' の所有者を変更中: 許可されていない操作です
+]777;notify;Command completed;chown apache:apache sample.myhost.com/]0;rinjikosei@localhost:/var/www]7;file://localhost.localdomain/var/www[rinjikosei@localhost www]$ chown apache:apache sample.myhost.com/[1@s[1@u[1@d[1@o[1@ 
+]777;notify;Command completed;sudo chown apache:apache sample.myhost.com/]0;rinjikosei@localhost:/var/www]7;file://localhost.localdomain/var/www[rinjikosei@localhost www]$ ls
+[0m[38;5;27mcgi-bin[0m  [38;5;27mhtml[0m  [38;5;27msample.myhost.com[0m
+]777;notify;Command completed;ls]0;rinjikosei@localhost:/var/www]7;file://localhost.localdomain/var/www[rinjikosei@localhost www]$ cd /var/r[Kwww/sample.myhost.com/
+]777;notify;Command completed;cd /var/www/sample.myhost.com/]0;rinjikosei@localhost:/var/www/sample.myhost.com]7;file://localhost.localdomain/var/www/sample.myhost.com[rinjikosei@localhost sample.myhost.com]$ echo ""[K[K[K[K[K[K[Ksudo sh -c ""e"c"h"o" "[C'"'"T'"h'"i'"s'" '"i'"s'" '"s'"a'"m'"p'"l'"e'".'"m'"y'"h'" [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co'""[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs'"t'".'"c'"o'"m'"[C ">" "i"n"d"e"x"."h"t"m"l"
+]777;notify;Command completed;sudo sh -c "echo 'This is sample.myhost.com' > index.html"]0;rinjikosei@localhost:/var/www/sample.myhost.com]7;file://localhost.localdomain/var/www/sample.myhost.com[rinjikosei@localhost sample.myhost.com]$ ls
+index.html
+]777;notify;Command completed;ls]0;rinjikosei@localhost:/var/www/sample.myhost.com]7;file://localhost.localdomain/var/www/sample.myhost.com[rinjikosei@localhost sample.myhost.com]$ cat index.html 
+This is sample.myhost.com
+]777;notify;Command completed;cat index.html ]0;rinjikosei@localhost:/var/www/sample.myhost.com]7;file://localhost.localdomain/var/www/sample.myhost.com[rinjikosei@localhost sample.myhost.com]$ chown apache:apache index.html [K[K[K[Ktml 
+chown: `index.html' の所有者を変更中: 許可されていない操作です
+]777;notify;Command completed;chown apache:apache index.html ]0;rinjikosei@localhost:/var/www/sample.myhost.com]7;file://localhost.localdomain/var/www/sample.myhost.com[rinjikosei@localhost sample.myhost.com]$ chown apache:apache index.html [1@s[1@u[1@d[1@o[1@ 
+]777;notify;Command completed;sudo chown apache:apache index.html ]0;rinjikosei@localhost:/var/www/sample.myhost.com]7;file://localhost.localdomain/var/www/sample.myhost.com[rinjikosei@localhost sample.myhost.com]$ Li[K[K/cd[K[K[Kcd /[K[K[K[Ke[Ksudo emacs /etc/httpd/conf/httpd.conf
+]777;notify;Command completed;sudo emacs /etc/httpd/conf/httpd.conf]0;rinjikosei@localhost:/var/www/sample.myhost.com]7;file://localhost.localdomain/var/www/sample.myhost.com[rinjikosei@localhost sample.myhost.com]$ cd /etc/httpd/conf.
+conf.d/         conf.modules.d/ 
+[rinjikosei@localhost sample.myhost.com]$ cd /etc/httpd/conf.d/
+]777;notify;Command completed;cd /etc/httpd/conf.d/]0;rinjikosei@localhost:/etc/httpd/conf.d]7;file://localhost.localdomain/etc/httpd/conf.d[rinjikosei@localhost conf.d]$ touch sample.myhost.com.cong[Kf
+touch: `sample.myhost.com.conf' に touch できません: 許可がありません
+]777;notify;Command completed;touch sample.myhost.com.conf]0;rinjikosei@localhost:/etc/httpd/conf.d]7;file://localhost.localdomain/etc/httpd/conf.d[rinjikosei@localhost conf.d]$ touch sample.myhost.com.conf[1@s[1@u[1@d[1@o[1@ 
+]777;notify;Command completed;sudo touch sample.myhost.com.conf]0;rinjikosei@localhost:/etc/httpd/conf.d]7;file://localhost.localdomain/etc/httpd/conf.d[rinjikosei@localhost conf.d]$ ls
+README  autoindex.conf  sample.myhost.com.conf  userdir.conf  welcome.conf
+]777;notify;Command completed;ls]0;rinjikosei@localhost:/etc/httpd/conf.d]7;file://localhost.localdomain/etc/httpd/conf.d[rinjikosei@localhost conf.d]$ sudo emacs sample.myhost.com.conf 
+]777;notify;Command completed;sudo emacs sample.myhost.com.conf ]0;rinjikosei@localhost:/etc/httpd/conf.d]7;file://localhost.localdomain/etc/httpd/conf.d[rinjikosei@localhost conf.d]$ sudo emacs sample.myhost.com.conf [1P[1P[1P[1P[1P[1@c[1@a[1@t
+<VirtualHost *:80>
+ DocumentRoot /var/www/sample.myhost.com
+ ServerName sample.myhost.com
+</VirtualHost>]777;notify;Command completed;sudo cat sample.myhost.com.conf ]0;rinjikosei@localhost:/etc/httpd/conf.d]7;file://localhost.localdomain/etc/httpd/conf.d[rinjikosei@localhost conf.d]$ systemctl reload httpd
+]777;notify;Command completed;systemctl reload httpd]0;rinjikosei@localhost:/etc/httpd/conf.d]7;file://localhost.localdomain/etc/httpd/conf.d[rinjikosei@localhost conf.d]$ systemctl reload httpd[1P httpd[1P httpd[1P httpd[1P httpd[1P httpd[1P httpd[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksudo cat sample.myhost.com.conf [2@emacs[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]777;notify;Command completed;sudo emacs sample.myhost.com.conf ]0;rinjikosei@localhost:/etc/httpd/conf.d]7;file://localhost.localdomain/etc/httpd/conf.d[rinjikosei@localhost conf.d]$ systemctl restra\[K[K[Kart httpd
+]777;notify;Command completed;systemctl restart httpd]0;rinjikosei@localhost:/etc/httpd/conf.d]7;file://localhost.localdomain/etc/httpd/conf.d[rinjikosei@localhost conf.d]$ httpd -S
+AH00548: NameVirtualHost has no effect and will be removed in the next release /etc/httpd/conf/httpd.conf:43
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using fe80::e0e8:9ae2:45a3:7c84. Set the 'ServerName' directive globally to suppress this message
+VirtualHost configuration:
+*:80                   sample.myhost.com (/etc/httpd/conf.d/sample.myhost.com.conf:1)
+ServerRoot: "/etc/httpd"
+Main DocumentRoot: "/var/www/html"
+Main ErrorLog: "/etc/httpd/logs/error_log"
+Mutex default: dir="/run/httpd/" mechanism=default 
+Mutex mpm-accept: using_defaults
+Mutex authdigest-opaque: using_defaults
+Mutex proxy-balancer-shm: using_defaults
+Mutex rewrite-map: using_defaults
+Mutex authdigest-client: using_defaults
+Mutex proxy: using_defaults
+Mutex authn-socache: using_defaults
+PidFile: "/run/httpd/httpd.pid"
+Define: _RH_HAS_HTTPPROTOCOLOPTIONS
+Define: DUMP_VHOSTS
+Define: DUMP_RUN_CFG
+User: name="apache" id=48 not_used
+Group: name="apache" id=48 not_used
+]777;notify;Command completed;httpd -S]0;rinjikosei@localhost:/etc/httpd/conf.d]7;file://localhost.localdomain/etc/httpd/conf.d[rinjikosei@localhost conf.d]$ httpd -Ssystemctl restart httpdudo emacs sample.myhost.com.conf [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ksudo cat sample.myhost.com.conf [2@emacs[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Ksudo emacs sample.myhost.com.conf 
+[sudo] rinjikosei のパスワード:
+]777;notify;Command completed;sudo emacs sample.myhost.com.conf ]0;rinjikosei@localhost:/etc/httpd/conf.d]7;file://localhost.localdomain/etc/httpd/conf.d[rinjikosei@localhost conf.d]$ sudo emacs sample.myhost.com.conf [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chttpd -S[Ksystemctl restart httpdudo emacs sample.myhost.com.conf [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ksudo cat sample.myhost.com.conf [2@emacs[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Ksudo touch sample.myhost.com.conf[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Pcd /etc/httpd/conf.d/sudo emacs /etc/httpd/conf/httpd.conf[1Pchown apache:apache index.html [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Pat[C[C[C[C[C[C[C[C[C[C[C[Cls[Ksudo sh -c "echo 'This is sample.myhost.com' > inddex.html"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[19Pcd /var/www/sample.myhost.com/
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Ksudo chown apache:apache sample.myhost.com/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Psudo mkdir sample.myhost.com[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pcd /var/www/ls[Ksudo rm -d sample.myhost.com/[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd /var/www/sample.myhost.com/sudo chown apache:apache sample.myhost.com[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd /var/www/[Khown apache:apache sample.myhost.com[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo echo "This is sample.myhost.com" sudo  > indeex.html[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[19Pcd /var/www/sample.myhost.com/
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo chown root sample.myhost.com/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Pd /var/www/sudo echo "This is sample.myhost.com" sudo  > indeex.html[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C> index.html[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[19Pcd /var/www/sample.myhost.com/
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo chown apache:apache sample.myhost.com[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Psudo mkdir[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kcd /var/www/ls[Ksudo rm vhost.conf~ [3@\#vhost.conf#[C-r #vhost.conf# vhost.conf vhost.conf~[3P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd /etc/httpd/conf.d/ls[K[K[Ksudo emacs /etc [K/httpd/f[Kconf.d/sample.myhost.com.connf
+]777;notify;Command completed;sudo emacs /etc/httpd/conf.d/sample.myhost.com.conf]0;rinjikosei@localhost:/etc/httpd/conf.d]7;file://localhost.localdomain/etc/httpd/conf.d[rinjikosei@localhost conf.d]$ sudo emacs /etc/httpd/conf.d/sample.myhost.com.connf[C[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksample.myhost.com.conf [10P/etc/httpd/conf
+conf/           conf.d/         conf.modules.d/ 
+[rinjikosei@localhost conf.d]$ sudo emacs /etc/httpd/conf.d/
+README                   sample.myhost.com.conf   userdir.conf
+autoindex.conf           sample.myhost.com.conf~  welcome.conf
+[rinjikosei@localhost conf.d]$ sudo emacs /etc/httpd/conf.d/[K[K[K[Kf
+conf/           conf.d/         conf.modules.d/ 
+[rinjikosei@localhost conf.d]$ sudo emacs /etc/httpd/conf/
+httpd.conf   httpd.conf~  magic        
+[rinjikosei@localhost conf.d]$ sudo emacs /etc/httpd/conf/
+httpd.conf   httpd.conf~  magic        
+[rinjikosei@localhost conf.d]$ sudo emacs /etc/httpd/conf/httpd.conf
+]777;notify;Command completed;sudo emacs /etc/httpd/conf/httpd.conf]0;rinjikosei@localhost:/etc/httpd/conf.d]7;file://localhost.localdomain/etc/httpd/conf.d[rinjikosei@localhost conf.d]$ htt[K[K[Ksystemctl restart httpd.service pd
+Failed to restart pd.service: Unit not found.
+^[[A^[[A^[[A            ^C
+]777;notify;Command completed;systemctl restart httpd.service pd]0;rinjikosei@localhost:/etc/httpd/conf.d]7;file://localhost.localdomain/etc/httpd/conf.d[rinjikosei@localhost conf.d]$ systemctl restart httpd.service pd[K[K[K[K[K[K[K[K[K[K[K
+]777;notify;Command completed;systemctl restart httpd]0;rinjikosei@localhost:/etc/httpd/conf.d]7;file://localhost.localdomain/etc/httpd/conf.d[rinjikosei@localhost conf.d]$ https[Kd =S
+Usage: httpd [-D name] [-d directory] [-f file]
+             [-C "directive"] [-c "directive"]
+             [-k start|restart|graceful|graceful-stop|stop]
+             [-v] [-V] [-h] [-l] [-L] [-t] [-T] [-S] [-X]
+Options:
+  -D name            : define a name for use in <IfDefine name> directives
+  -d directory       : specify an alternate initial ServerRoot
+  -f file            : specify an alternate ServerConfigFile
+  -C "directive"     : process directive before reading config files
+  -c "directive"     : process directive after reading config files
+  -e level           : show startup errors of level (see LogLevel)
+  -E file            : log startup errors to file
+  -v                 : show version number
+  -V                 : show compile settings
+  -h                 : list available command line options (this page)
+  -l                 : list compiled in modules
+  -L                 : list available configuration directives
+  -t -D DUMP_VHOSTS  : show parsed vhost settings
+  -t -D DUMP_RUN_CFG : show parsed run settings
+  -S                 : a synonym for -t -D DUMP_VHOSTS -D DUMP_RUN_CFG
+  -t -D DUMP_MODULES : show all loaded modules 
+  -M                 : a synonym for -t -D DUMP_MODULES
+  -t                 : run syntax check for config files
+  -T                 : start without DocumentRoot(s) check
+  -X                 : debug mode (only one worker, do not detach)
+]777;notify;Command completed;httpd =S]0;rinjikosei@localhost:/etc/httpd/conf.d]7;file://localhost.localdomain/etc/httpd/conf.d[rinjikosei@localhost conf.d]$ httpd =S[1PS-S
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using fe80::e0e8:9ae2:45a3:7c84. Set the 'ServerName' directive globally to suppress this message
+VirtualHost configuration:
+*:80                   sample.myhost.com (/etc/httpd/conf.d/sample.myhost.com.conf:1)
+ServerRoot: "/etc/httpd"
+Main DocumentRoot: "/var/www/html"
+Main ErrorLog: "/etc/httpd/logs/error_log"
+Mutex mpm-accept: using_defaults
+Mutex authdigest-opaque: using_defaults
+Mutex proxy-balancer-shm: using_defaults
+Mutex rewrite-map: using_defaults
+Mutex authdigest-client: using_defaults
+Mutex proxy: using_defaults
+Mutex authn-socache: using_defaults
+Mutex default: dir="/run/httpd/" mechanism=default 
+PidFile: "/run/httpd/httpd.pid"
+Define: _RH_HAS_HTTPPROTOCOLOPTIONS
+Define: DUMP_VHOSTS
+Define: DUMP_RUN_CFG
+User: name="apache" id=48 not_used
+Group: name="apache" id=48 not_used
+]777;notify;Command completed;httpd -S]0;rinjikosei@localhost:/etc/httpd/conf.d]7;file://localhost.localdomain/etc/httpd/conf.d[rinjikosei@localhost conf.d]$ ^C
+]777;notify;Command completed;httpd -S]0;rinjikosei@localhost:/etc/httpd/conf.d]7;file://localhost.localdomain/etc/httpd/conf.d[rinjikosei@localhost conf.d]$ sudo emacs /etc/httpd/conf/httpd.conf
+[sudo] rinjikosei のパスワード:
+]777;notify;Command completed;sudo emacs /etc/httpd/conf/httpd.conf]0;rinjikosei@localhost:/etc/httpd/conf.d]7;file://localhost.localdomain/etc/httpd/conf.d[rinjikosei@localhost conf.d]$ sudo emacs /etc/httpd/conf/httpd.conf[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksystemctl ret[Kstart httpd
+]777;notify;Command completed;systemctl restart httpd]0;rinjikosei@localhost:/etc/httpd/conf.d]7;file://localhost.localdomain/etc/httpd/conf.d[rinjikosei@localhost conf.d]$ apachectl -V
+Server version: Apache/2.4.6 (CentOS)
+Server built:   Mar 24 2022 14:57:57
+Server's Module Magic Number: 20120211:24
+Server loaded:  APR 1.4.8, APR-UTIL 1.5.2
+Compiled using: APR 1.4.8, APR-UTIL 1.5.2
+Architecture:   64-bit
+Server MPM:     prefork
+  threaded:     no
+    forked:     yes (variable process count)
+Server compiled with....
+ -D APR_HAS_SENDFILE
+ -D APR_HAS_MMAP
+ -D APR_HAVE_IPV6 (IPv4-mapped addresses enabled)
+ -D APR_USE_SYSVSEM_SERIALIZE
+ -D APR_USE_PTHREAD_SERIALIZE
+ -D SINGLE_LISTEN_UNSERIALIZED_ACCEPT
+ -D APR_HAS_OTHER_CHILD
+ -D AP_HAVE_RELIABLE_PIPED_LOGS
+ -D DYNAMIC_MODULE_LIMIT=256
+ -D HTTPD_ROOT="/etc/httpd"
+ -D SUEXEC_BIN="/usr/sbin/suexec"
+ -D DEFAULT_PIDLOG="/run/httpd/httpd.pid"
+ -D DEFAULT_SCOREBOARD="logs/apache_runtime_status"
+ -D DEFAULT_ERRORLOG="logs/error_log"
+ -D AP_TYPES_CONFIG_FILE="conf/mime.types"
+ -D SERVER_CONFIG_FILE="conf/httpd.conf"
+]777;notify;Command completed;apachectl -V]0;rinjikosei@localhost:/etc/httpd/conf.d]7;file://localhost.localdomain/etc/httpd/conf.d[rinjikosei@localhost conf.d]$ apachectl -Vsystemctl restart httpdudo emacs /etc/httpd/conf/httpd.conf[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chttpd -S[K
+VirtualHost configuration:
+*:80                   sample.myhost.com (/etc/httpd/conf.d/sample.myhost.com.conf:1)
+ServerRoot: "/etc/httpd"
+Main DocumentRoot: "/var/www/html"
+Main ErrorLog: "/etc/httpd/logs/error_log"
+Mutex default: dir="/run/httpd/" mechanism=default 
+Mutex mpm-accept: using_defaults
+Mutex authdigest-opaque: using_defaults
+Mutex proxy-balancer-shm: using_defaults
+Mutex rewrite-map: using_defaults
+Mutex authdigest-client: using_defaults
+Mutex proxy: using_defaults
+Mutex authn-socache: using_defaults
+PidFile: "/run/httpd/httpd.pid"
+Define: _RH_HAS_HTTPPROTOCOLOPTIONS
+Define: DUMP_VHOSTS
+Define: DUMP_RUN_CFG
+User: name="apache" id=48 not_used
+Group: name="apache" id=48 not_used
+]777;notify;Command completed;httpd -S]0;rinjikosei@localhost:/etc/httpd/conf.d]7;file://localhost.localdomain/etc/httpd/conf.d[rinjikosei@localhost conf.d]$ httpd -S[K[K[K[K[K[K[K[Kapachectl -Vsystemctl restart httpdudo emacs /etc/httpd/conf/httpd.conf
+[sudo] rinjikosei のパスワード:
+]777;notify;Command completed;sudo emacs /etc/httpd/conf/httpd.conf]0;rinjikosei@localhost:/etc/httpd/conf.d]7;file://localhost.localdomain/etc/httpd/conf.d[rinjikosei@localhost conf.d]$ sudo emacs /etc/httpd/conf/httpd.conf[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kapachectl -Vsystemctl restart httpdudo emacs /etc/httpd/conf/httpd.conf[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pystemctl restart httpd
+]777;notify;Command completed;systemctl restart httpd]0;rinjikosei@localhost:/etc/httpd/conf.d]7;file://localhost.localdomain/etc/httpd/conf.d[rinjikosei@localhost conf.d]$ systemctl restart httpdudo emacs /etc/httpd/conf/httpd.conf[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kapachectl -Vsystemctl restart httpdudo emacs /etc/httpd/conf/httpd.conf[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chttpd -S[K
+VirtualHost configuration:
+*:80                   sample.myhost.com (/etc/httpd/conf.d/sample.myhost.com.conf:1)
+ServerRoot: "/etc/httpd"
+Main DocumentRoot: "/var/www/html"
+Main ErrorLog: "/etc/httpd/logs/error_log"
+Mutex authn-socache: using_defaults
+Mutex default: dir="/run/httpd/" mechanism=default 
+Mutex mpm-accept: using_defaults
+Mutex authdigest-opaque: using_defaults
+Mutex proxy-balancer-shm: using_defaults
+Mutex rewrite-map: using_defaults
+Mutex authdigest-client: using_defaults
+Mutex proxy: using_defaults
+PidFile: "/run/httpd/httpd.pid"
+Define: _RH_HAS_HTTPPROTOCOLOPTIONS
+Define: DUMP_VHOSTS
+Define: DUMP_RUN_CFG
+User: name="apache" id=48 not_used
+Group: name="apache" id=48 not_used
+]777;notify;Command completed;httpd -S]0;rinjikosei@localhost:/etc/httpd/conf.d]7;file://localhost.localdomain/etc/httpd/conf.d[rinjikosei@localhost conf.d]$ httpd -Ssystemctl restart httpdudo emacs /etc/httpd/conf/httpd.conf[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kapachectl -V
+Server version: Apache/2.4.6 (CentOS)
+Server built:   Mar 24 2022 14:57:57
+Server's Module Magic Number: 20120211:24
+Server loaded:  APR 1.4.8, APR-UTIL 1.5.2
+Compiled using: APR 1.4.8, APR-UTIL 1.5.2
+Architecture:   64-bit
+Server MPM:     prefork
+  threaded:     no
+    forked:     yes (variable process count)
+Server compiled with....
+ -D APR_HAS_SENDFILE
+ -D APR_HAS_MMAP
+ -D APR_HAVE_IPV6 (IPv4-mapped addresses enabled)
+ -D APR_USE_SYSVSEM_SERIALIZE
+ -D APR_USE_PTHREAD_SERIALIZE
+ -D SINGLE_LISTEN_UNSERIALIZED_ACCEPT
+ -D APR_HAS_OTHER_CHILD
+ -D AP_HAVE_RELIABLE_PIPED_LOGS
+ -D DYNAMIC_MODULE_LIMIT=256
+ -D HTTPD_ROOT="/etc/httpd"
+ -D SUEXEC_BIN="/usr/sbin/suexec"
+ -D DEFAULT_PIDLOG="/run/httpd/httpd.pid"
+ -D DEFAULT_SCOREBOARD="logs/apache_runtime_status"
+ -D DEFAULT_ERRORLOG="logs/error_log"
+ -D AP_TYPES_CONFIG_FILE="conf/mime.types"
+ -D SERVER_CONFIG_FILE="conf/httpd.conf"
+]777;notify;Command completed;apachectl -V]0;rinjikosei@localhost:/etc/httpd/conf.d]7;file://localhost.localdomain/etc/httpd/conf.d[rinjikosei@localhost conf.d]$ apachectl -V[4Phttpd -S
+VirtualHost configuration:
+*:80                   sample.myhost.com (/etc/httpd/conf.d/sample.myhost.com.conf:1)
+ServerRoot: "/etc/httpd"
+Main DocumentRoot: "/var/www/html"
+Main ErrorLog: "/etc/httpd/logs/error_log"
+Mutex rewrite-map: using_defaults
+Mutex authdigest-client: using_defaults
+Mutex proxy: using_defaults
+Mutex authn-socache: using_defaults
+Mutex default: dir="/run/httpd/" mechanism=default 
+Mutex mpm-accept: using_defaults
+Mutex authdigest-opaque: using_defaults
+Mutex proxy-balancer-shm: using_defaults
+PidFile: "/run/httpd/httpd.pid"
+Define: _RH_HAS_HTTPPROTOCOLOPTIONS
+Define: DUMP_VHOSTS
+Define: DUMP_RUN_CFG
+User: name="apache" id=48 not_used
+Group: name="apache" id=48 not_used
+]777;notify;Command completed;httpd -S]0;rinjikosei@localhost:/etc/httpd/conf.d]7;file://localhost.localdomain/etc/httpd/conf.d[rinjikosei@localhost conf.d]$ apache2ctl configtest
+bash: apache2ctl: コマンドが見つかりませんでした...
+]777;notify;Command completed;apache2ctl configtest]0;rinjikosei@localhost:/etc/httpd/conf.d]7;file://localhost.localdomain/etc/httpd/conf.d[rinjikosei@localhost conf.d]$ apache2ctl configtest[1P
+Syntax OK
+]777;notify;Command completed;apachectl configtest]0;rinjikosei@localhost:/etc/httpd/conf.d]7;file://localhost.localdomain/etc/httpd/conf.d[rinjikosei@localhost conf.d]$ exis[Kt
+exit
+
+スクリプトは 2022年09月10日 14時03分44秒
+ に終了しました
