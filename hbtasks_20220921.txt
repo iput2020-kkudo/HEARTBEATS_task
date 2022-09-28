@@ -1,0 +1,530 @@
+emacs cd /etc/
+[root@localhost etc]# ls
+DIR_COLORS               crontab                     geoclue        ld.so.conf                nsswitch.conf.bak  rc2.d              statetab.d
+DIR_COLORS.256color      crypttab                    ghostscript    ld.so.conf.d              ntp                rc3.d              subgid
+DIR_COLORS.lightbgcolor  csh.cshrc                   glvnd          libaudit.conf             numad.conf         rc4.d              subuid
+GREP_COLORS              csh.login                   gnupg          libblockdev               oddjob             rc5.d              sudo-ldap.conf
+GeoIP.conf               cups                        groff          libibverbs.d              oddjobd.conf       rc6.d              sudo.conf
+NetworkManager           cupshelpers                 group          libnl                     oddjobd.conf.d     rdma               sudoers
+PackageKit               dbus-1                      group-         libpaper.d                openldap           redhat-release     sudoers.d
+UPower                   dconf                       grub.d         libreport                 opt                request-key.conf   sysconfig
+X11                      default                     grub2-efi.cfg  libuser.conf              os-release         request-key.d      sysctl.conf
+abrt                     depmod.d                    grub2.cfg      libvirt                   pam.d              resolv.conf        sysctl.d
+adjtime                  dhcp                        gshadow        locale.conf               papersize          resolv.conf.save   system-release
+aliases                  dleyna-server-service.conf  gshadow-       localtime                 passwd             rpc                system-release-cpe
+aliases.db               dnsmasq.conf                gss            login.defs                passwd-            rpm                systemd
+alsa                     dnsmasq.d                   gssproxy       logrotate.conf            pbm2ppa.conf       rsyncd.conf        tcsd.conf
+alternatives             dracut.conf                 host.conf      logrotate.d               pinforc            rsyslog.conf       terminfo
+anacrontab               dracut.conf.d               hostname       lsm                       pkcs11             rsyslog.d          tmpfiles.d
+asound.conf              e2fsck.conf                 hosts          lvm                       pki                rwtab              trusted-key.key
+at.deny                  egl                         hosts.allow    machine-id                plymouth           rwtab.d            tuned
+audisp                   enscript.cfg                hosts.deny     magic                     pm                 samba              udev
+audit                    environment                 hp             mail.rc                   pnm2ppa.conf       sane.d             udisks2
+avahi                    ethertypes                  idmapd.conf    makedumpfile.conf.sample  polkit-1           sasl2              unbound
+bash_completion.d        exports                     init.d         man_db.conf               popt.d             scl                updatedb.conf
+bashrc                   exports.d                   inittab        maven                     postfix            securetty          usb_modeswitch.conf
+binfmt.d                 favicon.png                 inputrc        mcelog                    ppp                security           vconsole.conf
+bluetooth                fcoe                        iproute2       mke2fs.conf               prelink.conf.d     selinux            vimrc
+brltty                   festival                    ipsec.conf     modprobe.d                printcap           services           virc
+brltty.conf              filesystems                 ipsec.d        modules-load.d            profile            sestatus.conf      vmware-tools
+centos-release           firefox                     ipsec.secrets  motd                      profile.d          setroubleshoot     wgetrc
+centos-release-upstream  firewalld                   iscsi          mtab                      protocols          setuptool.d        wpa_supplicant
+chkconfig.d              flatpak                     issue          mtools.conf               pulse              sgml               wvdial.conf
+chrony.conf              fonts                       issue.net      multipath                 purple             shadow             xdg
+chrony.conf~             fprintd.conf                java           my.cnf                    python             shadow-            xinetd.d
+chrony.keys              fstab                       jvm            my.cnf.d                  qemu-ga            shells             xml
+cifs-utils               fuse.conf                   jvm-commmon    nanorc                    qemu-kvm           skel               yum
+cron.d                   fwupd                       kdump.conf     ndctl                     radvd.conf         smartmontools      yum.conf
+cron.daily               gconf                       kernel         netconfig                 ras                sos.conf           yum.repos.d
+cron.deny                gcrypt                      krb5.conf      networks                  rc.d               speech-dispatcher
+cron.hourly              gdbinit                     krb5.conf.d    nfs.conf                  rc.local           ssh
+cron.monthly             gdbinit.d                   ksmtuned.conf  nfsmount.conf             rc0.d              ssl
+cron.weekly              gdm                         ld.so.cache    nsswitch.conf             rc1.d              statetab
+[root@localhost etc]# cdemacs chrony.conf
+-UUU:----F1  *scratch*      All L1     (Lisp Interaction ElDoc) ---------------------------------------------------------------------------------------------
+For information about GNU Emacs and the GNU system, type C-h C-a.File Edit Options Buffers Tools Conf Help                                                                                                                    
+
+# Use public servers from the pool.ntp.org project.                                                                                                          
+
+# Please consider joining the pool (http://www.pool.ntp.org/join.html).                                                                                      
+
+
+server 0.centos.pool.ntp.org iburst
+server 1.centos.pool.ntp.org iburst
+server 2.centos.pool.ntp.org iburst
+server 3.centos.pool.ntp.org iburst
+
+# Record the rate at which the system clock gains/losses time.                                                                                               
+
+driftfile /var/lib/chrony/drift
+
+# Allow the system clock to be stepped in the first three updates                                                                                            
+
+# if its offset is larger than 1 second.                                                                                                                     
+
+makestep 1.0 3
+
+# Enable kernel synchronization of the real-time clock (RTC).                                                                                                
+
+rtcsync
+
+# Enable hardware timestamping on all interfaces that support it.                                                                                            
+
+#hwtimestamp *                                                                                                                                               
+
+
+# Increase the minimum number of selectable sources required to adjust                                                                                       
+
+# the system clock.                                                                                                                                          
+
+#minsources 2                                                                                                                                                
+
+
+# Allow NTP client access from local network.                                                                                                                
+
+#allow 192.168.0.0/16                                                                                                                                        
+
+
+# Serve time even if not synchronized to a time source.                                                                                                      
+
+#local stratum 10                                                                                                                                            
+
+
+# Specify file containing keys for NTP authentication.                                                                                                       
+
+-UU-:----F1  chrony.conf    Top L1     (Conf[Space]) --------------------------------------------------------------------------------------------------------
+2
+
+3Mark setntp1.jst.mfeed.ad.jp**server ntp1.jst.mfeed.ad.jp						434Mark setserver5Mark setserver4	Mark setntp2.jst.mfeed.ad.jpAuto-saving...done565	Mark setntp3.jst.mfeed.ad.jpSaving file /etc/chrony.conf...Wrote /etc/chrony.conf--[root@localhost etc]# systemctl cenable firewalld
+[root@localhost etc]# systemctl enable firewalld firewalld firewalld firewalld firewalld firewalld firewallds firewalldt firewallda firewalldt firewalldu firewallds firewalld
+● firewalld.service - firewalld - dynamic firewall daemon
+   Loaded: loaded (/usr/lib/systemd/system/firewalld.service; enabled; vendor preset: enabled)
+   Active: active (running) since 日 2022-09-18 11:22:56 JST; 3 days ago
+     Docs: man:firewalld(1)
+ Main PID: 928 (firewalld)
+   CGroup: /system.slice/firewalld.service
+           mq928 /usr/bin/python2 -Es /usr/sbin/firewalld --nofork --nopid
+
+ 9月 18 11:22:56 localhost.localdomain systemd[1]: Starting firewalld - dynamic firewall daemon...
+ 9月 18 11:22:56 localhost.localdomain systemd[1]: Started firewalld - dynamic firewall daemon.
+ 9月 18 11:22:56 localhost.localdomain firewalld[928]: WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option... it now.
+Hint: Some lines were ellipsized, use -l to show in full.
+[root@localhost etc]# ls -all
+合計 1380
+drwxr-xr-x. 139 root root     8192  9月 22 07:12 .
+dr-xr-xr-x.  17 root root      242  9月 18 11:23 ..
+-rw-------.   1 root root        0  9月 16 22:49 .pwd.lock
+-rw-r--r--.   1 root root      163  9月 16 22:47 .updated
+-rw-r--r--.   1 root root     5090 11月 16  2020 DIR_COLORS
+-rw-r--r--.   1 root root     5725 11月 16  2020 DIR_COLORS.256color
+-rw-r--r--.   1 root root     4669 11月 16  2020 DIR_COLORS.lightbgcolor
+-rw-r--r--.   1 root root       94  3月 25  2017 GREP_COLORS
+-rw-r--r--.   1 root root     1704  8月 13  2019 GeoIP.conf
+drwxr-xr-x.   8 root root      145  9月 16 22:50 NetworkManager
+drwxr-xr-x.   2 root root       92  9月 16 22:50 PackageKit
+drwxr-xr-x.   2 root root       25  9月 16 22:49 UPower
+drwxr-xr-x.   6 root root      103  9月 16 22:49 X11
+drwxr-xr-x.   3 root root      101  9月 16 22:49 abrt
+-rw-r--r--.   1 root root       16  9月 16 22:54 adjtime
+-rw-r--r--.   1 root root     1529  4月  1  2020 aliases
+-rw-r--r--.   1 root root    12288  9月 16 22:56 aliases.db
+drwxr-xr-x.   3 root root       65  9月 16 22:50 alsa
+drwxr-xr-x.   2 root root     4096  9月 16 22:53 alternatives
+-rw-------.   1 root root      541  1月 14  2022 anacrontab
+-rw-r--r--.   1 root root       55  8月  8  2019 asound.conf
+-rw-r--r--.   1 root root        1  5月 19 00:54 at.deny
+drwxr-x---.   3 root root       43  9月 16 22:49 audisp
+drwxr-x---.   3 root root       83  9月 16 22:55 audit
+drwxr-xr-x.   4 root root       71  9月 16 22:50 avahi
+drwxr-xr-x.   2 root root     4096  9月 16 22:50 bash_completion.d
+-rw-r--r--.   1 root root     2853  4月  1  2020 bashrc
+drwxr-xr-x.   2 root root        6  1月 14  2022 binfmt.d
+drwxr-xr-x.   2 root root       23  9月 16 22:49 bluetooth
+drwxr-xr-x.   2 root root    12288  9月 16 22:49 brltty
+-rw-r--r--.   1 root root    21929  4月 11  2018 brltty.conf
+-rw-r--r--.   1 root root       37 11月 24  2020 centos-release
+-rw-r--r--.   1 root root       51 11月 24  2020 centos-release-upstream
+drwxr-xr-x.   2 root root        6 10月 14  2020 chkconfig.d
+-rw-r--r--.   1 root root     1192  9月 22 07:12 chrony.conf
+-rw-r--r--.   1 root root     1109  9月 22 07:07 chrony.conf~
+-rw-r-----.   1 root chrony    481  8月  8  2019 chrony.keys
+drwxr-xr-x.   2 root root       26  9月 16 22:50 cifs-utils
+drwxr-xr-x.   2 root root       54  9月 16 22:50 cron.d
+drwxr-xr-x.   2 root root       57  9月 16 22:50 cron.daily
+-rw-------.   1 root root        0  1月 14  2022 cron.deny
+drwxr-xr-x.   2 root root       41  9月 16 22:50 cron.hourly
+drwxr-xr-x.   2 root root        6  6月 10  2014 cron.monthly
+drwxr-xr-x.   2 root root        6  6月 10  2014 cron.weekly
+-rw-r--r--.   1 root root      451  6月 10  2014 crontab
+-rw-------.   1 root root        0  9月 16 22:47 crypttab
+-rw-r--r--.   1 root root     1620  4月  1  2020 csh.cshrc
+-rw-r--r--.   1 root root     1103  4月  1  2020 csh.login
+drwxr-xr-x.   5 root lp       4096  9月 22 06:50 cups
+drwxr-xr-x.   2 root root       34  9月 16 22:50 cupshelpers
+drwxr-xr-x.   4 root root       78  9月 16 22:49 dbus-1
+drwxr-xr-x.   4 root root       31  9月 16 22:49 dconf
+drwxr-xr-x.   2 root root       44  9月 16 22:54 default
+drwxr-xr-x.   2 root root       40  9月 16 22:49 depmod.d
+drwxr-x---.   4 root root       53  9月 16 22:49 dhcp
+-rw-r--r--.   1 root root     1174  4月 11  2018 dleyna-server-service.conf
+-rw-r--r--.   1 root root    26832  7月 22  2021 dnsmasq.conf
+drwxr-xr-x.   2 root root        6  7月 22  2021 dnsmasq.d
+-rw-r--r--.   1 root root     1285 10月  1  2020 dracut.conf
+drwxr-xr-x.   2 root root       34  9月 16 22:49 dracut.conf.d
+-rw-r--r--.   1 root root      112  9月 30  2020 e2fsck.conf
+drwxr-xr-x.   3 root root       37  9月 16 22:49 egl
+-rw-r--r--.   1 root root     4760  8月  9  2019 enscript.cfg
+-rw-r--r--.   1 root root        0  4月  1  2020 environment
+-rw-r--r--.   1 root root     1317  4月 11  2018 ethertypes
+-rw-r--r--.   1 root root        0  6月  7  2013 exports
+drwxr-xr-x.   2 root root        6 10月 14  2021 exports.d
+lrwxrwxrwx.   1 root root       56  9月 16 22:48 favicon.png -> /usr/share/icons/hicolor/16x16/apps/fedora-logo-icon.png
+drwxr-xr-x.   2 root root       22  9月 16 22:49 fcoe
+drwxr-xr-x.   2 root root       46  9月 16 22:49 festival
+-rw-r--r--.   1 root root       70  4月  1  2020 filesystems
+drwxr-xr-x.   3 root root       18  9月 16 22:50 firefox
+drwxr-x---.   7 root root      133  9月 16 22:49 firewalld
+drwxr-xr-x.   3 root root       23  9月 16 22:49 flatpak
+drwxr-xr-x.   3 root root       38  9月 16 22:48 fonts
+-rw-r--r--.   1 root root       20 10月 31  2018 fprintd.conf
+-rw-r--r--.   1 root root      628  9月 16 22:47 fstab
+-rw-r--r--.   1 root root       38 10月 30  2018 fuse.conf
+drwxr-xr-x.   3 root root       59  9月 16 22:50 fwupd
+drwxr-xr-x.   7 root root      107  9月 16 22:49 gconf
+drwxr-xr-x.   2 root root        6  8月  3  2017 gcrypt
+-rw-r--r--.   1 root root      265  9月 30  2020 gdbinit
+drwxr-xr-x.   2 root root        6  9月 30  2020 gdbinit.d
+drwxr-xr-x.   6 root root      107  9月 16 22:50 gdm
+drwxr-xr-x.   2 root root       26  9月 16 22:49 geoclue
+drwxr-xr-x.   2 root root        6 10月  1  2020 ghostscript
+drwxr-xr-x.   3 root root       26  9月 16 22:49 glvnd
+drwxr-xr-x.   2 root root        6  7月 13  2018 gnupg
+drwxr-xr-x.   4 root root       40  9月 16 22:48 groff
+-rw-r--r--.   1 root root      984  9月 16 22:54 group
+-rw-r--r--.   1 root root      975  9月 16 22:54 group-
+drwx------.   2 root root      182  9月 16 22:54 grub.d
+lrwxrwxrwx.   1 root root       31  9月 16 22:50 grub2-efi.cfg -> ../boot/efi/EFI/centos/grub.cfg
+lrwxrwxrwx.   1 root root       22  9月 16 22:49 grub2.cfg -> ../boot/grub2/grub.cfg
+----------.   1 root root      796  9月 16 22:54 gshadow
+----------.   1 root root      787  9月 16 22:54 gshadow-
+drwxr-xr-x.   3 root root       20  9月 16 22:48 gss
+drwxr-xr-x.   2 root root       79  9月 16 22:49 gssproxy
+-rw-r--r--.   1 root root        9  6月  7  2013 host.conf
+-rw-r--r--.   1 root root       22  9月 16 22:54 hostname
+-rw-r--r--.   1 root root      158  6月  7  2013 hosts
+-rw-r--r--.   1 root root      370  6月  7  2013 hosts.allow
+-rw-r--r--.   1 root root      460  6月  7  2013 hosts.deny
+drwxr-xr-x.   2 root root       24  9月 16 22:49 hp
+-rw-r--r--.   1 root root     4849  4月 11  2018 idmapd.conf
+lrwxrwxrwx.   1 root root       11  9月 16 22:48 init.d -> rc.d/init.d
+-rw-r--r--.   1 root root      511 11月 17  2020 inittab
+-rw-r--r--.   1 root root      942  6月  7  2013 inputrc
+drwxr-xr-x.   2 root root      159  9月 16 22:48 iproute2
+-rw-r--r--.   1 root root     1073  8月  7  2020 ipsec.conf
+drwx------.   3 root root       22  9月 16 22:49 ipsec.d
+-rw-------.   1 root root       31  8月  7  2020 ipsec.secrets
+drwxr-xr-x.   2 root root       52  9月 16 22:49 iscsi
+-rw-r--r--.   1 root root       23 11月 24  2020 issue
+-rw-r--r--.   1 root root       22 11月 24  2020 issue.net
+drwxr-xr-x.   3 root root       62  9月 16 22:49 java
+drwxr-xr-x.   2 root root        6 11月 21  2015 jvm
+drwxr-xr-x.   2 root root        6 11月 21  2015 jvm-commmon
+-rw-r--r--.   1 root root     7274  9月 16 22:49 kdump.conf
+drwxr-xr-x.   3 root root       24  9月 16 22:50 kernel
+-rw-r--r--.   1 root root      646  1月 14  2022 krb5.conf
+drwxr-xr-x.   2 root root        6  6月 29 00:31 krb5.conf.d
+-rw-r--r--.   1 root root      478  1月  8  2022 ksmtuned.conf
+-rw-r--r--.   1 root root    80666  9月 18 10:41 ld.so.cache
+-rw-r--r--.   1 root root       28  2月 28  2013 ld.so.conf
+drwxr-xr-x.   2 root root      166  9月 16 22:49 ld.so.conf.d
+-rw-r-----.   1 root root      191  3月  2  2019 libaudit.conf
+drwxr-xr-x.   3 root root       20  9月 16 22:49 libblockdev
+drwxr-xr-x.   2 root root     4096  9月 16 22:49 libibverbs.d
+drwxr-xr-x.   2 root root       35  9月 16 22:48 libnl
+drwxr-xr-x.   2 root root        6 10月  1  2020 libpaper.d
+drwxr-xr-x.   6 root root      187  9月 16 22:49 libreport
+-rw-r--r--.   1 root root     2391 10月 13  2013 libuser.conf
+drwx------.   5 root root      199  9月 16 22:56 libvirt
+-rw-r--r--.   1 root root       19  9月 16 22:54 locale.conf
+lrwxrwxrwx.   1 root root       32  9月 16 22:54 localtime -> ../usr/share/zoneinfo/Asia/Tokyo
+-rw-r--r--.   1 root root     2027  8月  6  2019 login.defs
+-rw-r--r--.   1 root root      662  7月 31  2013 logrotate.conf
+drwxr-xr-x.   2 root root      218  9月 16 22:50 logrotate.d
+drwxr-xr-x.   3 root root       43  9月 16 22:49 lsm
+drwxr-xr-x.   6 root root      100  9月 16 22:49 lvm
+-r--r--r--.   1 root root       33  9月 16 22:49 machine-id
+-rw-r--r--.   1 root root      111 10月  1  2020 magic
+-rw-r--r--.   1 root root     1968  4月 11  2018 mail.rc
+-rw-r--r--.   1 root root     5122  6月 10  2021 makedumpfile.conf.sample
+-rw-r--r--.   1 root root     5171 10月 31  2018 man_db.conf
+drwxr-xr-x.   2 root root        6 11月 21  2015 maven
+drwxr-xr-x.   3 root root       61  9月 16 22:50 mcelog
+-rw-r--r--.   1 root root     1106 10月  1  2020 mke2fs.conf
+drwxr-xr-x.   2 root root      166  9月 16 22:50 modprobe.d
+drwxr-xr-x.   2 root root        6  1月 14  2022 modules-load.d
+-rw-r--r--.   1 root root        0  6月  7  2013 motd
+lrwxrwxrwx.   1 root root       17  9月 16 22:47 mtab -> /proc/self/mounts
+-rw-r--r--.   1 root root     2620  6月 10  2014 mtools.conf
+drwxr-xr-x.   2 root root        6  8月 31  2021 multipath
+-rw-r--r--.   1 root root      570  9月 30  2020 my.cnf
+drwxr-xr-x.   2 root root       31  9月 16 22:49 my.cnf.d
+-rw-r--r--.   1 root root     8892  6月 10  2014 nanorc
+drwxr-xr-x.   3 root root       38  9月 16 22:49 ndctl
+-rw-r--r--.   1 root root      767  8月  9  2019 netconfig
+-rw-r--r--.   1 root root       58 11月 17  2020 networks
+-rw-r--r--.   1 root root     1023 10月 14  2021 nfs.conf
+-rw-r--r--.   1 root root     3391 10月 14  2021 nfsmount.conf
+-rw-r--r--.   1 root root     1949  9月 16 22:49 nsswitch.conf
+-rw-r--r--.   1 root root     1938  5月 19 00:54 nsswitch.conf.bak
+drwxr-xr-x.   2 root root       38  9月 16 22:50 ntp
+-rw-r--r--.   1 root root       91 12月  3  2012 numad.conf
+drwxr-xr-x.   2 root root        6  3月  6  2015 oddjob
+-rw-r--r--.   1 root root     4922  3月  6  2015 oddjobd.conf
+drwxr-xr-x.   2 root root       70  9月 16 22:49 oddjobd.conf.d
+drwxr-xr-x.   3 root root       36  9月 16 22:49 openldap
+drwxr-xr-x.   2 root root        6  4月 11  2018 opt
+lrwxrwxrwx.   1 root root       21  9月 16 22:47 os-release -> ../usr/lib/os-release
+drwxr-xr-x.   2 root root     4096  9月 16 22:54 pam.d
+-rw-r--r--.   1 root root       68 10月  1  2020 papersize
+-rw-r--r--.   1 root root     2274  9月 16 22:54 passwd
+-rw-r--r--.   1 root root     2274  9月 16 22:54 passwd-
+-rw-r--r--.   1 root root     1362  6月 10  2014 pbm2ppa.conf
+-rw-r--r--.   1 root root     2872  6月 10  2014 pinforc
+drwxr-xr-x.   3 root root       21  9月 16 22:48 pkcs11
+drwxr-xr-x.  12 root root      151  9月 16 22:50 pki
+drwxr-xr-x.   2 root root       28  9月 16 22:49 plymouth
+drwxr-xr-x.   5 root root       52  9月 16 22:47 pm
+-rw-r--r--.   1 root root     6300  6月 10  2014 pnm2ppa.conf
+drwxr-xr-x.   5 root root       72  9月 16 22:49 polkit-1
+drwxr-xr-x.   2 root root        6  6月 10  2014 popt.d
+drwxr-xr-x.   2 root root      154  9月 16 22:50 postfix
+drwxr-xr-x.   3 root root      219  9月 16 22:49 ppp
+drwxr-xr-x.   2 root root      105  9月 16 22:49 prelink.conf.d
+-rw-r--r--.   1 root root      233  6月  7  2013 printcap
+-rw-r--r--.   1 root root     1819  4月  1  2020 profile
+drwxr-xr-x.   2 root root     4096  9月 16 22:50 profile.d
+-rw-r--r--.   1 root root     6545  4月  1  2020 protocols
+drwxr-xr-x.   2 root root       79  9月 16 22:49 pulse
+drwxr-xr-x.   2 root root       23  9月 16 22:50 purple
+drwxr-xr-x.   2 root root       35  9月 16 22:48 python
+drwxr-xr-x.   3 root root       50  9月 16 22:50 qemu-ga
+drwxr-xr-x.   2 root root       51  9月 16 22:50 qemu-kvm
+-rw-r--r--.   1 root root      433 10月 31  2018 radvd.conf
+drwxr-xr-x.   3 root root       27  9月 16 22:50 ras
+drwxr-xr-x.  10 root root      127  9月 16 22:49 rc.d
+lrwxrwxrwx.   1 root root       13  9月 16 22:49 rc.local -> rc.d/rc.local
+lrwxrwxrwx.   1 root root       10  9月 16 22:48 rc0.d -> rc.d/rc0.d
+lrwxrwxrwx.   1 root root       10  9月 16 22:48 rc1.d -> rc.d/rc1.d
+lrwxrwxrwx.   1 root root       10  9月 16 22:48 rc2.d -> rc.d/rc2.d
+lrwxrwxrwx.   1 root root       10  9月 16 22:48 rc3.d -> rc.d/rc3.d
+lrwxrwxrwx.   1 root root       10  9月 16 22:48 rc4.d -> rc.d/rc4.d
+lrwxrwxrwx.   1 root root       10  9月 16 22:48 rc5.d -> rc.d/rc5.d
+lrwxrwxrwx.   1 root root       10  9月 16 22:48 rc6.d -> rc.d/rc6.d
+drwxr-xr-x.   3 root root       94  9月 16 22:49 rdma
+lrwxrwxrwx.   1 root root       14  9月 16 22:47 redhat-release -> centos-release
+-rw-r--r--.   1 root root     1787  6月 10  2014 request-key.conf
+drwxr-xr-x.   2 root root       30  9月 16 22:49 request-key.d
+-rw-r--r--.   1 root root       54  9月 22 00:01 resolv.conf
+-rw-r--r--.   1 root root        1  9月 16 22:47 resolv.conf.save
+-rw-r--r--.   1 root root     1634 12月 25  2012 rpc
+drwxr-xr-x.   2 root root      128  9月 16 22:49 rpm
+-rw-r--r--.   1 root root      458  4月  1  2020 rsyncd.conf
+-rw-r--r--.   1 root root     3232  1月 14  2022 rsyslog.conf
+drwxr-xr-x.   2 root root       25  6月  1 00:22 rsyslog.d
+-rw-r--r--.   1 root root     1008 11月 17  2020 rwtab
+drwxr-xr-x.   2 root root       39  9月 16 22:49 rwtab.d
+drwxr-xr-x.   2 root root       61  9月 16 22:49 samba
+drwxr-xr-x.   3 root root     4096  9月 16 22:50 sane.d
+drwxr-xr-x.   2 root root       65  9月 16 22:50 sasl2
+drwxr-xr-x.   3 root root       34  9月 16 22:50 scl
+-rw-------.   1 root root      221  4月  1  2020 securetty
+drwxr-xr-x.   6 root root     4096  9月 16 22:48 security
+drwxr-xr-x.   5 root root       81  9月 16 22:49 selinux
+-rw-r--r--.   1 root root   670293  6月  7  2013 services
+-rw-r--r--.   1 root root      216  4月  1  2020 sestatus.conf
+drwxr-xr-x.   2 root root       33  9月 16 22:49 setroubleshoot
+drwxr-xr-x.   2 root root     4096  9月 16 22:50 setuptool.d
+drwxr-xr-x.   3 root root       21  9月 16 22:48 sgml
+----------.   1 root root     1248  9月 16 22:54 shadow
+----------.   1 root root     1253  9月 16 22:54 shadow-
+-rw-r--r--.   1 root root       63  9月 16 22:50 shells
+drwxr-xr-x.   3 root root       78  9月 16 22:48 skel
+drwxr-xr-x.   3 root root       74  9月 16 22:50 smartmontools
+-rw-r--r--.   1 root root      138  6月 29 00:29 sos.conf
+drwxr-xr-x.   4 root root       56  9月 16 22:49 speech-dispatcher
+drwxr-xr-x.   2 root root      225  9月 16 22:55 ssh
+drwxr-xr-x.   2 root root       19  9月 16 22:48 ssl
+-rw-r--r--.   1 root root      212 11月 17  2020 statetab
+drwxr-xr-x.   2 root root        6 11月 17  2020 statetab.d
+-rw-r--r--.   1 root root        0  4月  1  2020 subgid
+-rw-r--r--.   1 root root        0  4月  1  2020 subuid
+-rw-r-----.   1 root root     3181  9月 30  2020 sudo-ldap.conf
+-rw-r-----.   1 root root     1786  9月 30  2020 sudo.conf
+-r--r-----.   1 root root     4328  9月 30  2020 sudoers
+drwxr-x---.   2 root root        6 10月 14  2021 sudoers.d
+drwxr-xr-x.   6 root root     4096  9月 16 22:55 sysconfig
+-rw-r--r--.   1 root root      449 11月 17  2020 sysctl.conf
+drwxr-xr-x.   2 root root       28  9月 16 22:49 sysctl.d
+lrwxrwxrwx.   1 root root       14  9月 16 22:47 system-release -> centos-release
+-rw-r--r--.   1 root root       23 11月 24  2020 system-release-cpe
+drwxr-xr-x.   4 root root      151  9月 16 22:49 systemd
+-rw-------.   1 tss  tss      7046  8月  4  2017 tcsd.conf
+drwxr-xr-x.   2 root root        6  9月  7  2017 terminfo
+drwxr-xr-x.   2 root root        6  1月 14  2022 tmpfiles.d
+-rw-r--r--.   1 root root      750  2月 24  2022 trusted-key.key
+drwxr-xr-x.   3 root root      109  9月 16 22:50 tuned
+drwxr-xr-x.   3 root root       54  9月 16 22:55 udev
+drwxr-xr-x.   2 root root       26  9月 16 22:49 udisks2
+drwxr-xr-x.   2 root root       68  9月 16 22:49 unbound
+-rw-r--r--.   1 root root      557  4月 11  2018 updatedb.conf
+-rw-r--r--.   1 root root     1523  4月 11  2018 usb_modeswitch.conf
+-rw-r--r--.   1 root root       37  9月 16 22:54 vconsole.conf
+-rw-r--r--.   1 root root     1982 12月 16  2020 vimrc
+-rw-r--r--.   1 root root     1982 12月 16  2020 virc
+drwxr-xr-x.   4 root root      208  9月 16 22:49 vmware-tools
+-rw-r--r--.   1 root root     4479  5月 16  2019 wgetrc
+drwxr-xr-x.   2 root root       33  9月 16 22:49 wpa_supplicant
+-rw-r--r--.   1 root root        0  6月 10  2014 wvdial.conf
+drwxr-xr-x.   6 root root      116  9月 16 22:49 xdg
+drwxr-xr-x.   2 root root        6  4月 11  2018 xinetd.d
+drwxr-xr-x.   2 root root       21  9月 16 22:48 xml
+drwxr-xr-x.   6 root root      100  9月 16 22:49 yum
+-rw-r--r--.   1 root root      970 10月  2  2020 yum.conf
+drwxr-xr-x.   2 root root     4096  9月 17 07:06 yum.repos.d
+[root@localhost etc]# ls -al | grep sevllinux
+[root@localhost etc]# ls -al | grep sellinux
+[root@localhost etc]# 
+[root@localhost etc]# 
+[root@localhost etc]# grep sellinux etc/*
+grep: etc/*: そのようなファイルやディレクトリはありません
+[root@localhost etc]# grep sellinux etc/*
+grep: etc/: そのようなファイルやディレクトリはありません
+[root@localhost etc]# grep sellinux etc/*ls -al | grep sellinuxgrep sellinux etc/*ls  | grep se-al | grep sel
+selinux
+[root@localhost etc]# emacs selcd /etc/selinux/
+[root@localhost selinux]# ls
+config  final  semanage.conf  targeted  tmp
+[root@localhost selinux]# e
+[root@localhost selinux]# 
+[root@localhost selinux]# 
+[root@localhost selinux]# emacs config
+-UUU:----F1  *scratch*      All L1     (Lisp Interaction ElDoc) ---------------------------------------------------------------------------------------------
+For information about GNU Emacs and the GNU system, type C-h C-a.File Edit Options Buffers Tools Conf Help                                                                                                                    
+
+
+# This file controls the state of SELinux on the system.                                                                                                     
+
+# SELINUX= can take one of these three values:                                                                                                               
+
+#     enforcing - SELinux security policy is enforced.                                                                                                       
+
+#     permissive - SELinux prints warnings instead of enforcing.                                                                                             
+
+#     disabled - No SELinux policy is loaded.                                                                                                                
+
+SELINUX=enforcing
+# SELINUXTYPE= can take one of three values:                                                                                                                 
+
+#     targeted - Targeted processes are protected,                                                                                                           
+
+#     minimum - Modification of targeted policy. Only selected processes are protected.                                                                      
+
+#     mls - Multi Level Security protection.                                                                                                                 
+
+SELINUXTYPE=targeted
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-UU-:----F1  config         All L1     (Conf[Unix]) ---------------------------------------------------------------------------------------------------------
+2
+
+3456787				**Mark setdisabledSaving file /etc/selinux/config...Wrote /etc/selinux/config--[root@localhost selinux]# 
+[root@localhost selinux]# 
+[root@localhost selinux]# cat config 
+
+# This file controls the state of SELinux on the system.
+# SELINUX= can take one of these three values:
+#     enforcing - SELinux security policy is enforced.
+#     permissive - SELinux prints warnings instead of enforcing.
+#     disabled - No SELinux policy is loaded.
+SELINUX=disabled
+# SELINUXTYPE= can take one of three values:
+#     targeted - Targeted processes are protected,
+#     minimum - Modification of targeted policy. Only selected processes are protected. 
+#     mls - Multi Level Security protection.
+SELINUXTYPE=targeted 
+
+
+[root@localhost selinux]# cd /at configemacslscd /etc/selinux/ls  | grep selgrep sellinux etc/*ls -al | grep sellinuxsystemctl status firewalldenableemacs chrony.conflscd /etc/lsemacs chrony.conflscd /etc/
+[root@localhost etc]# cd /etc/at configemacslscd /etc/selinux/ls  | grep selgrep sellinux etc/*ls -al | grep sellinuxsystemctl status firewalldenableemacs chrony.conflscd /etc/rm -f emacs-28.2.tar.gz ls
+[root@localhost etc]# 
+[root@localhost etc]# 
+[root@localhost etc]# 
+[root@localhost etc]# 
+[root@localhost etc]# 
+[root@localhost etc]# 
+[root@localhost etc]# 
+[root@localhost etc]# 
+[root@localhost etc]# 
+[root@localhost etc]# 
+[root@localhost etc]# 
+[root@localhost etc]# cd /etc/at configemacslscd /etc/selinux/ls  | grep selgrep sellinux etc/*ls -al | grep sellinuxsystemctl status firewalldenableemacs chrony.conflsemacs chrony.conf chrony.conf chrony.conf chrony.conf chrony.conf chrony.confc chrony.confa chrony.conft chrony.conf
+# Use public servers from the pool.ntp.org project.
+# Please consider joining the pool (http://www.pool.ntp.org/join.html).
+server ntp1.jst.mfeed.ad.jp
+server ntp2.jst.mfeed.ad.jp
+server ntp3.jst.mfeed.ad.jp
+server 0.centos.pool.ntp.org iburst
+server 1.centos.pool.ntp.org iburst
+server 2.centos.pool.ntp.org iburst
+server 3.centos.pool.ntp.org iburst
+
+# Record the rate at which the system clock gains/losses time.
+driftfile /var/lib/chrony/drift
+
+# Allow the system clock to be stepped in the first three updates
+# if its offset is larger than 1 second.
+makestep 1.0 3
+
+# Enable kernel synchronization of the real-time clock (RTC).
+rtcsync
+
+# Enable hardware timestamping on all interfaces that support it.
+#hwtimestamp *
+
+# Increase the minimum number of selectable sources required to adjust
+# the system clock.
+#minsources 2
+
+# Allow NTP client access from local network.
+#allow 192.168.0.0/16
+
+# Serve time even if not synchronized to a time source.
+#local stratum 10
+
+# Specify file containing keys for NTP authentication.
+#keyfile /etc/chrony.keys
+
+# Specify directory for log files.
+logdir /var/log/chrony
+
+# Select which information is logged.
+#log measurements statistics tracking
+[root@localhost etc]# 

@@ -1,0 +1,54 @@
+httpd -version
+Server version: Apache/2.4.6 (CentOS)
+Server built:   Mar 24 2022 14:57:57
+[root@localhost tks.kosei]# httpd -versionsystemctl stuatus httpd
+Åú httpd.service - The Apache HTTP Server
+   Loaded: loaded (/usr/lib/systemd/system/httpd.service; disabled; vendor preset: disabled)
+   Active: inactive (dead)
+     Docs: man:httpd(8)
+           man:apachectl(8)
+[root@localhost tks.kosei]# systemctl status httpd httpd httpd httpdr httpdt httpd
+[root@localhost tks.kosei]# systemctl start httpdtus
+Åú httpd.service - The Apache HTTP Server
+   Loaded: loaded (/usr/lib/systemd/system/httpd.service; disabled; vendor preset: disabled)
+   Active: active (running) since ã‡ 2022-09-23 04:20:51 JST; 1s ago
+     Docs: man:httpd(8)
+           man:apachectl(8)
+ Main PID: 5221 (httpd)
+   Status: "Processing requests..."
+    Tasks: 6
+   CGroup: /system.slice/httpd.service
+           tq5221 /usr/sbin/httpd -DFOREGROUND
+           tq5225 /usr/sbin/httpd -DFOREGROUND
+           tq5226 /usr/sbin/httpd -DFOREGROUND
+           tq5227 /usr/sbin/httpd -DFOREGROUND
+           tq5228 /usr/sbin/httpd -DFOREGROUND
+           mq5229 /usr/sbin/httpd -DFOREGROUND
+
+ 9åé 23 04:20:51 localhost.localdomain systemd[1]: Starting The Apache HTTP Server...
+ 9åé 23 04:20:51 localhost.localdomain httpd[5221]: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ... message
+ 9åé 23 04:20:51 localhost.localdomain systemd[1]: Started The Apache HTTP Server.
+Hint: Some lines were ellipsized, use -l to show in full.
+[root@localhost tks.kosei]# systemctl status httpdrt httpd httpd httpd httpd httpde httpdn httpda httpdb httpdl httpde httpd
+Created symlink from /etc/systemd/system/multi-user.target.wants/httpd.service to /usr/lib/systemd/system/httpd.service.
+[root@localhost tks.kosei]# systemctl enable httpdstatus
+Åú httpd.service - The Apache HTTP Server
+   Loaded: loaded (/usr/lib/systemd/system/httpd.service; enabled; vendor preset: disabled)
+   Active: active (running) since ã‡ 2022-09-23 04:20:51 JST; 15s ago
+     Docs: man:httpd(8)
+           man:apachectl(8)
+ Main PID: 5221 (httpd)
+   Status: "Total requests: 0; Current requests/sec: 0; Current traffic:   0 B/sec"
+   CGroup: /system.slice/httpd.service
+           tq5221 /usr/sbin/httpd -DFOREGROUND
+           tq5225 /usr/sbin/httpd -DFOREGROUND
+           tq5226 /usr/sbin/httpd -DFOREGROUND
+           tq5227 /usr/sbin/httpd -DFOREGROUND
+           tq5228 /usr/sbin/httpd -DFOREGROUND
+           mq5229 /usr/sbin/httpd -DFOREGROUND
+
+ 9åé 23 04:20:51 localhost.localdomain systemd[1]: Starting The Apache HTTP Server...
+ 9åé 23 04:20:51 localhost.localdomain httpd[5221]: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using ... message
+ 9åé 23 04:20:51 localhost.localdomain systemd[1]: Started The Apache HTTP Server.
+Hint: Some lines were ellipsized, use -l to show in full.
+[root@localhost tks.kosei]# 
