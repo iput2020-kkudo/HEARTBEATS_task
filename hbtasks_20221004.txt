@@ -1,0 +1,102 @@
+sudo timedatectl set-timezone Asia/Tokyo
+[ec2-user@ip-172-31-9-244 ~]$ timedatectl
+               Local time: Tue 2022-10-04 10:10:00 JST
+           Universal time: Tue 2022-10-04 01:10:00 UTC
+                 RTC time: Tue 2022-10-04 01:10:00
+                Time zone: Asia/Tokyo (JST, +0900)
+System clock synchronized: yes
+              NTP service: active
+          RTC in local TZ: no
+[ec2-user@ip-172-31-9-244 ~]$ ^C
+[ec2-user@ip-172-31-9-244 ~]$ hostnamectl
+   Static hostname: ip-172-31-9-244.ap-northeast-1.compute.internal
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: c73b1bc062214caa966f23d5d3d37964
+           Boot ID: 530910dd1d6b4b8d8f88e7ab437f693b
+    Virtualization: xen
+  Operating System: AlmaLinux 8.6 (Sky Tiger)
+       CPE OS Name: cpe:/o:almalinux:almalinux:8::baseos
+            Kernel: Linux 4.18.0-372.16.1.el8_6.x86_64
+      Architecture: x86-64
+[ec2-user@ip-172-31-9-244 ~]$ hostnamectl set-hostname (ê›íËÇµÇΩÇ¢ÉzÉXÉgñº)kudo-webdb01
+Unknown operation set-hostnamkudo-webdb01.
+[ec2-user@ip-172-31-9-244 ~]$ #sudo emacs /etc/hostname 
+-UUU:----F1  *scratch*      All L1     (Fundamental) --------------------------------------------------------------------------------------------------------
+Loading /usr/share/emacs/site-lisp/site-start.d/desktop-entry-mode-init.el (source)...done
+Loading /usr/share/emacs/site-lisp/site-start.d/desktop-entry-mode-init.el (source)...doneFile Edit Options Buffers Tools Lisp-Interaction Help                                                                                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-UUU:----F1  *scratch*      All L1     (Lisp Interaction ElDoc) ---------------------------------------------------------------------------------------------
+For information about GNU Emacs and the GNU system, type C-h C-a.
+For information about GNU Emacs and the GNU system, type C-h C-a.File Edit Options Buffers Tools Help                                                                                                                         
+
+ip-172-31-9-244.ap-northeast-1.compute.internal
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-UU-:----F1  hostname       All L1     (Fundamental) --------------------------------------------------------------------------------------------------------
+Beginning of buffer
+[ec2-user@ip-172-31-9-244 ~]$ sudo emacs /etc/hostname hostnamectl set-hostnamkudo-webdb01sudo 
+Unknown operation set-hostnamkudo-webdb01.
+[ec2-user@ip-172-31-9-244 ~]$ sudo hostnamectl set-hostnamkudo-webdb01 kudo-webdb01e kudo-webdb01
+[ec2-user@ip-172-31-9-244 ~]$ sudo reboot
